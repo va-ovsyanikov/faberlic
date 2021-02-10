@@ -1,0 +1,454 @@
+/*==========  Desktop First Method  ==========*/
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  .header_top_line {
+    padding: 0 15px;
+  }
+  .header_center {
+    padding: 30px 15px 0 15px;
+  }
+  .headar_nav {
+    padding: 12px 15px;
+  }
+  .s_home_content {
+    padding: 0 15px;
+  }
+  .s_home_descont {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .s_home h3 {
+    text-align: center;
+  }
+  .s_home_descont > ul {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .s_news_content {
+    padding: 0 15px;
+  }
+  .s_news_item_content img {
+    width: 400px;
+  }
+  .s_novelty_content {
+    padding: 0 15px;
+  }
+  .s_questions_desc a {
+    display: block;
+  }
+  .footer_content {
+    padding: 50px 15px 0;
+  }
+  .s_company_content {
+    padding: 0 15px;
+  }
+  .s_company_content > img {
+    float: none;
+    margin-bottom: 15px;
+    margin-left: 0;
+  }
+  .s_products_content {
+    padding: 0 15px;
+  }
+  .s_catalog_content {
+    padding: 0 15px;
+  }
+  .s_registration_content {
+    padding: 0 15px;
+  }
+  .s_stocks_content {
+    padding: 0 15px;
+  }
+  .s_service_content {
+    padding: 0 15px;
+  }
+  .s_capability_content {
+    padding: 0 15px;
+  }
+  .s_contacts_content {
+    padding: 0 15px;
+  }
+}
+@media only screen and (max-width: 1130px) {
+  .s_products_list {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  .btn {
+    display: block;
+  }
+  .header_center h1 {
+    display: none;
+  }
+  .header_social a + a {
+    margin-left: 10px;
+  }
+  .headar_nav ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .headar_nav ul a {
+    font-size: 20px;
+  }
+  .headar_nav ul a:hover:after {
+    width: 0;
+  }
+  .headar_nav {
+    padding: 0;
+  }
+  .headar_nav li {
+    border-bottom: 1px solid #ddd;
+  }
+  .headar_nav li:last-child {
+    border-bottom: 0;
+  }
+  .headar_nav li a {
+    display: block;
+    padding: 10px 20px;
+  }
+  .headar_nav nav {
+    border-top: 1px solid #ddd;
+    display: none;
+  }
+  .s_news_item_content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .s_news_item h3 {
+    margin-bottom: 10px;
+  }
+  .s_news_data {
+    margin-left: 0;
+    margin-bottom: 20px;
+  }
+  .s_news_item_content img {
+    margin-bottom: 15px;
+  }
+  .s_news_item_head {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .s_novelty_item_head {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 100%;
+  }
+  .s_novelty_item_head h3 {
+    margin-bottom: 10px;
+  }
+  .s_novelty_data {
+    margin-bottom: 20px;
+    margin-left: 0;
+  }
+  .s_novelty_content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .s_novelty_item {
+    width: 100%;
+  }
+  .footer_company {
+    margin-right: 125px;
+  }
+  .s_catalog_list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .s_catalog_list_item {
+    margin-bottom: 50px;
+  }
+  .s_catalog_order form {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .s_stocks_content_top img {
+    width: 100%;
+  }
+  .s_stocks_content_programs {
+    text-align: center;
+  }
+  .s_registration_form_inside {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .s_registration_form_left,
+  .s_registration_form_right {
+    width: 100%;
+  }
+  .s_registration_content_inform img {
+    float: none;
+    margin: 0 auto 20px;
+    display: block;
+  }
+}
+/* Small Devices, Tablets */
+@media only screen and (max-width: 768px) {
+  .header_data {
+    display: none;
+  }
+  .s_news_item_head h3 {
+    font-size: 17px;
+  }
+  .header_logo {
+    width: 150px;
+  }
+  .header_bottom {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-right: 0;
+  }
+  .header_bottom h3 {
+    font-size: 35px;
+  }
+  .header_bottom p {
+    font-size: 25px;
+  }
+  .header_bottom li {
+    font-size: 30px;
+  }
+  .registration {
+    font-size: 20px;
+    padding: 7px 20px;
+    width: 160px;
+  }
+  section h2 {
+    font-size: 22px;
+  }
+  .s_novelty_item_head h3 {
+    font-size: 17px;
+  }
+  .footer_content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .footer_content div + div {
+    margin-top: 20px;
+  }
+  .footer > p {
+    margin-top: 40px;
+    padding-bottom: 10px;
+  }
+  .s_home_graf {
+    width: 100%;
+  }
+  .s_company_standart {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .s_company_standart_item {
+    width: 100%;
+  }
+  .s_company_content > img {
+    width: 100%;
+  }
+  .s_products_fabric_desc img {
+    float: none;
+    margin-right: 0;
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .s_contacts_person_phone {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .s_contacts_person_phone a + a {
+    margin-top: 10px;
+  }
+  .s_contacts_person_phone span {
+    display: none;
+  }
+  .s_registration_content_inform img {
+    width: 100%;
+  }
+  .s_contacts_content_top p {
+    font-size: 35px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .s_contacts_person_social {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .s_contacts_person_social a {
+    margin-bottom: 20px;
+  }
+  .s_contacts_person_social a + a {
+    margin-left: 0;
+  }
+  .s_contacts_group_social {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .s_contacts_group_social a {
+    margin-bottom: 20px;
+  }
+  .s_contacts_group_social p + p {
+    margin-left: 0;
+  }
+}
+/* Extra Small Devices, Phones */
+@media only screen and (max-width: 480px) {
+  .header_logo {
+    width: 140px;
+  }
+  .header_center {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .header_data_user {
+    margin-top: 20px;
+  }
+  .s_catalog_order_right,
+  .s_catalog_order_left {
+    width: 100%;
+    min-width: auto;
+  }
+  .s_catalog_send {
+    float: none;
+    margin: 0 auto;
+    display: block;
+  }
+  .s_registration_send {
+    width: 295px;
+    font-size: 14px;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .header_bottom h3 {
+    font-size: 30px;
+  }
+  .header_bottom p {
+    font-size: 20px;
+  }
+  .header_bottom li {
+    font-size: 24px;
+  }
+  .s_contacts_content_top p {
+    font-size: 30px;
+  }
+}
+/* Custom, iPhone Retina */
+/*==========  Mobile First Method  ==========*/
+/* Custom, iPhone Retina */
+/* Extra Small Devices, Phones */
+/* Small Devices, Tablets */
+/* Medium Devices, Desktops */
+@media only screen and (min-width: 992px) {
+  .headar_nav nav {
+    display: block !important;
+  }
+  .s_stocks_content_programs_item a {
+    text-decoration: none;
+  }
+  .s_stocks_content_programs_item a:hover {
+    text-decoration: underline;
+  }
+}
+/* Large Devices, Wide Screens */
